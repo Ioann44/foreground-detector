@@ -62,4 +62,4 @@ def classify_image(img):
 
 # Запускаем сервер Flask
 if __name__ == "__main__":
-    app.run("0.0.0.0", debug=False)
+    app.run("127.0.0.1", port=5380, debug=False)
